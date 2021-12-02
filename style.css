@@ -1,0 +1,60 @@
+#mainbox{
+  font-size: 15px;
+  cursor:pointer;
+  transition: all .6s;
+  color:#c1e1f5;
+}
+.sidemenu{
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:0px;
+  background-color:white;
+  outline: solid 1px; 
+  z-index: 1;
+  padding-top: 100px;
+  overflow-x:hidden;
+  transition: all .5s;
+}
+
+.sidemenu a{
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size:15px;
+  color:black;
+  display:block;
+  text-align: center;
+}
+
+.sidemenu a:hover{
+  text-decoration: underline;
+
+}
+
+.sidemenu .closebtn{
+  position: absolute;
+  top: 0px;
+  right:25px;
+  font-size:36px;
+  margin-left:32px;
+}
+#myImage{
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+  background-color: #003c61;
+}
+
+body {
+  color:white;
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
